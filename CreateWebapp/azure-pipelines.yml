@@ -19,7 +19,7 @@ steps:
     resourceGroupName: 'learn-deploy-acr-rg'
     location: 'North Europe'
     templateLocation: 'Linked artifact'
-    csmFile: 'CreateWebApp/azuredeploy.json'
+    csmFile: 'CreateWebapp/azuredeploy.json'
     overrideParameters: '-projectName testciproject-azr -linkedTemplateUri https://raw.githubusercontent.com/Choogster1/liminal_space/master/CreateWebapp/linkedStorageAccount.json'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
