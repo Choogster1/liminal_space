@@ -20,7 +20,7 @@ steps:
     location: 'North Europe'
     templateLocation: 'Linked artifact'
     csmFile: 'CreateWebApp/azuredeploy.json'
-    overrideParameters: '-projectName  testproject1 -linkedTemplateUri https://raw.githubusercontent.com/Choogster1/liminal_space/master/CreateWebapp/linkedStorageAccount.json?token=AOU2REP2JQCVMHPGCW26JIDACESGE'
+    overrideParameters: '-projectName  testproject1 -linkedTemplateUri https://raw.githubusercontent.com/Choogster1/liminal_space/master/CreateWebapp/linkedStorageAccount.json'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
 
